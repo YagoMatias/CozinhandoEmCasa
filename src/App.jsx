@@ -2,7 +2,8 @@ import React from 'react';
 import Header from './components/Header';
 import Banner from './components/Banner';
 import MainCircle from './components/MainCircle';
-import ButtonCard from './components/ButtonCard';
+import Card from './components/Card';
+import CardArea from './components/CardArea';
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
       </header>
       <main className="w-full h-full flex flex-col justify-center items-center mt-20">
         <MainCircle />
-        <ButtonCard />
+        <CardArea />
       </main>
     </div>
   );
