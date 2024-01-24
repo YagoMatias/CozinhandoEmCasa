@@ -1,22 +1,23 @@
 import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Home from './pages/Home';
+import Receitas from './pages/Receitas';
 import Header from './components/Header';
 import Banner from './components/Banner';
-import MainCircle from './components/MainCircle';
-import Card from './components/Card';
-import CardArea from './components/CardArea';
 
 function App() {
   return (
-    <div className="bg-[#B3864D] w-full h-full p-0 m-0 flex flex-col items-center">
-      <header className="flex flex-col justify-center items-center gap-20">
-        <Header />
-        <Banner />
-      </header>
-      <main className="w-full h-full flex flex-col justify-center items-center mt-20">
-        <MainCircle />
-        <CardArea />
-      </main>
-    </div>
+    <BrowserRouter>
+      <div className="bg-[#B3864D] w-full h-full p-0 m-0 flex flex-col items-center">
+        <header className="flex flex-col justify-center items-center gap-20">
+          <Header />
+        </header>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="receitas" element={<Receitas />} />
+        </Routes>
+      </div>
+    </BrowserRouter>
   );
 }
 

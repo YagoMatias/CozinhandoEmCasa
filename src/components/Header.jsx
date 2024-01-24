@@ -1,18 +1,19 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
     <div className="flex flex-col w-full justify-center items-center gap-5 mt-10">
       <nav className="flex gap-40 font-semibold text-white">
-        <a
-          href="#"
+        <Link
+          to="/"
           className=" hover:bg-[#B79161] active:bg-[#B79161] focus:outline-none focus:ring focus:ring-[#B79161] p-2 rounded-md"
         >
           HOME
-        </a>
+        </Link>
         <a
-          href="#"
-          className=" hover:bg-[#B79161] active:bg-[#B79161] focus:outline-none focus:ring focus:ring-[#B79161] p-2 rounded-md"
+          href="#receitas"
+          className="hover:bg-[#B79161] active:bg-[#B79161] focus:outline-none focus:ring focus:ring-[#B79161] p-2 rounded-md"
         >
           RECEITAS
         </a>
