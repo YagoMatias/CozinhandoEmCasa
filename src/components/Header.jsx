@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import AllReceitas from '../pages/AllReceitas';
 
 const Header = () => {
   return (
@@ -11,14 +12,14 @@ const Header = () => {
         >
           HOME
         </Link>
-        <a
-          href="#receitas"
+        <Link
+          to="allReceitas"
           className="hover:bg-[#B79161] active:bg-[#B79161] focus:outline-none focus:ring focus:ring-[#B79161] p-2 rounded-md"
         >
           RECEITAS
-        </a>
+        </Link>
         <a
-          href=""
+          href="#contatos"
           className=" hover:bg-[#B79161] active:bg-[#B79161] focus:outline-none focus:ring focus:ring-[#B79161] p-2 rounded-md"
         >
           CONTATOS
@@ -28,7 +29,7 @@ const Header = () => {
         type="search"
         name="search"
         id="search"
-        className="placeholder:italic placeholder:text-slate-400 block bg-white border border-slate-300 rounded-2xl py-2 pl-9 pr-3 shadow-xl focus:outline-none focus:border-[#812D25] focus:ring-[#812D25] focus:ring-1 sm:text-sm w-1/2"
+        className="placeholder:italic placeholder:text-slate-400 block bg-white border border-slate-300 rounded-2xl py-2 pl-9 pr-3 shadow-xl focus:outline-none focus:border-[#812D25] focus:ring-[#812D25] focus:ring-1 sm:text-sm w-11/12 transition ease-in-out delay-50 hover:-translate-x-1 hover:scale-105 duration-300 ml-4"
         placeholder="Pesquisar..."
       />
     </div>

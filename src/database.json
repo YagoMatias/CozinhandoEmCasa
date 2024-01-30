@@ -1,9 +1,141 @@
 [
   {
-    "Titulo": "merda",
-    "Ingredientes": "merda",
-    "ModoDePreparo": "Merda",
-    "imagemCapa": "imagem",
-    "imagemCard": "imagem"
+    "id": "0",
+    "Titulo": "PAVLOVA",
+    "Ingredientes": {
+      "1": "240g - Açúcar Refinado",
+      "2": "120g - Clara de Ovo",
+      "3": "250g - Carne de Sol"
+    },
+    "ModoDePreparo": {
+      "1": "Em um bowl, recipiente da batedeira, misturar as claras e o açúcar",
+      "2": "Aquecer em banho-maria  até atingir 72 °C, ou até que os cristais de açucar estejam dissolvidos",
+      "3": "Tome cuidado para não cozinhar as claras",
+      "4": "Transferir a mistura para a batedeira e com o globo bater até esfriar completamente e atingir um ponto firme e brilhante"
+    },
+    "imagemCapa": "https://imgur.com/00SHiy8.jpg"
+  },
+  {
+    "id": "1",
+    "Titulo": "COOKIES",
+    "Ingredientes": {
+      "1": "Açúcar Refinado - 80g",
+      "2": "Açúcar mascavo - 80g",
+      "3": "Manteiga - 115g",
+      "4": "Chocolate meio amargo - 220g",
+      "5": "Farinha de trigo sem fermento - 250g",
+      "6": "Pasta de baunilha - 5g",
+      "7": "Ovos - 50g",
+      "8": "Fermento quimico - 5g",
+      "9": "Bicarbonato de sódio - 10g"
+    },
+    "ModoDePreparo": {
+      "1": "Bater os dois açúcares com a manteiga e a pasta de baunilha. Usando a raquete da batedeira",
+      "2": "Adicionar o chocolate picado ou em gotas",
+      "3": "Adicionar a farinhade trigo, o fermento w o bicarbonato peneirados",
+      "4": "Adicionar o ovo",
+      "5": "Fazer bolas de 100g",
+      "6": "Congelar",
+      "7": "Assar em forno a 160°C"
+    },
+    "imagemCapa": "https://imgur.com/j0ex5Hy.jpg"
+  },
+  {
+    "id": "2",
+    "Titulo": "BOLO DE CENOURA",
+    "Ingredientes": {
+      "1": "Farinha de trigo  - 200g",
+      "2": "Ovos  - 200g",
+      "3": "Açúcar  - 290g",
+      "4": "Óleo - 160g",
+      "5": "Cenoura cozida  - 300g",
+      "6": "Fermento quimico - 5g",
+      "7": "Ganache de chocolate",
+      "8": "Chocolate meio amargo - 100g",
+      "9": "Chocolate ao leite - 100g",
+      "10": "Creme de leite UHT - 80g",
+      "11": "Manteiga - 20g",
+      "12": "Glucose - 20g"
+    },
+    "ModoDePreparo": {
+      "1": "Cozinhar a cenoura até amolecer, esperar esfriar um pouco",
+      "2": "Processar no liquidificador até formar um pure",
+      "3": "Adicionar o açúcar, os ovos, o óleo e processar novamente",
+      "4": "Com um fouet, misturar os liquidos e os secos",
+      "5": "Assar em forma untada, assar em forno médio",
+      "6": "Ganache",
+      "7": "Derreter os chocolates a 45°C",
+      "8": "Aquecer o creme de leite e a glucose a 40°C",
+      "9": "Misturar os dois com a ajuda de um fouet",
+      "10": "Quando o ganache atingir 30°C adicionar a manteiga em ponto de pomada, com a ajuda de um mixer",
+      "11": "Cobrir o bolo"
+    },
+    "imagemCapa": "https://imgur.com/6GVQ21u.jpg"
+  },
+  {
+    "id": "3",
+    "Titulo": "CREME INGLÊS",
+    "Ingredientes": {
+      "1": "Creme de leite fresco - 65g",
+      "2": "Leite integral - 65g",
+      "3": "Açúcar refinado - 13g",
+      "4": "Gema de ovo - 25g",
+      "5": "Essência de baunilha - 10g",
+      "6": "Mousse de chocolate",
+      "7": "Creme Inglês",
+      "8": "Chocolate amargo - 115g",
+      "9": "Creme de leite fresco - 180g"
+    },
+    "ModoDePreparo": {
+      "1": "Derreta o chocolate amargo e misture com o creme inglês",
+      "2": "Quando atingir a temperatura ambiente, adicione o creme de leite batido em picos médios, monte como quiser"
+    },
+    "imagemCapa": "https://imgur.com/UHgbwyG.jpg"
+  },
+  {
+    "id": "4",
+    "Titulo": "PUDIM",
+    "Ingredientes": {
+      "1": "Leite condensado - 400g",
+      "2": "Leite integral - 400g",
+      "3": "Açúcar refinado - 300g",
+      "4": "Gema de ovo - 80g",
+      "5": "Ovos - 150g",
+      "6": "Essência de baunilha - 10g"
+    },
+    "ModoDePreparo": {
+      "1": "Misturar o leite, o leite condensado, as gemas e os ovos",
+      "2": "Com a ajuda de um mixer, processar tudo. Dica: Deixar o mixer no fundo do pote para não formar espuma",
+      "3": "Fazer um caramelo seco",
+      "4": "Adicionar um pouco de água, cuidado neste momento",
+      "5": "Colocar o caramelo na forma, cobrir com a mistura e levar para assar em banho maria, no forno a 120°C"
+    },
+    "imagemCapa": "https://imgur.com/Sn0WuOy.jpg"
+  },
+  {
+    "id": "5",
+    "Titulo": "CHEESECAKE",
+    "Ingredientes": {
+      "1": "Cream cheese - 600g",
+      "2": "oVOS - 300g",
+      "3": "Gemas - 60g",
+      "4": "Açucar - 225g",
+      "5": "Limão - 1/2",
+      "6": "Receita de massa sablée 500g",
+      "7": "Açúcar refinado 130g",
+      "8": "Farinha de amêndoas 50g",
+      "9": "Farinha de trigo 500g",
+      "10": "Gema de ovo 40-80g",
+      "11": "Manteiga sem sal 300g",
+      "12": "Sal refinado 2g ",
+      "13": "Calda de morango",
+      "14": "Limão 1/2",
+      "15": "Morango 300g",
+      "16": "Açúcar 150g"
+    },
+    "ModoDePreparo": {
+      "1": "Misturar o leite, o leite condensado, as gemas e os ovos"
+    },
+    "imagemCapa": "https://imgur.com/HQe1TPk.jpg"
   }
 ]

@@ -5,7 +5,7 @@ import Banner from '../components/Banner';
 
 const Home = () => {
   return (
-    <div className="bg-[#B3864D] w-full h-full p-0 m-0 flex flex-col items-center">
+    <div className="bg-[#B3864D] w-full h-full p-0 m-0 flex flex-col items-center animate-slideLeft">
       <header className="flex flex-col justify-center items-center gap-20">
         <Banner />
       </header>
