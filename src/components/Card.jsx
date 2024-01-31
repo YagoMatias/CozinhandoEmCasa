@@ -25,11 +25,8 @@ const Card = ({ searchTerm }) => {
                 className="w-40 h-40 min-w-28 min-h-28 rounded-full object-cover "
               />
               <h3 className="font-semibold text-2xl">{receita.Titulo}</h3>
-              <p className="text-base ml-5">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo,
-                quaerat, placeat deleniti fuga natus, veniam dicta dolor
-                mollitia accusantium repellat ipsum officia quae quia a culpa
-                illum possimus error ea?
+              <p className="text-base ml-5 text-ellipsis overflow-y-hidden">
+                {receita.descricao}
               </p>
             </Link>
           </div>
