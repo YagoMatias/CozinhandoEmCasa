@@ -6,3 +6,24 @@
   padding: 0 ;
   margin: 0 ;
 }
+
+@font-face {
+  font-family: 'mali-regular';
+  src: url("./fonts/mali/Mali-Regular.ttf") format('truetype');
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'mali-bold';
+  src: url("./fonts/mali/Mali-Bold.ttf") format('truetype');
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'mali-semibold';
+  src: url("./fonts/mali/Mali-SemiBold.ttf") format('truetype');
+  font-style: normal;
+  font-display: swap;
+}

@@ -1,5 +1,4 @@
 import React from 'react';
-import PavlovaBanner from '../assets/pavlova.jpg';
 import Separetor from '../components/Separetor';
 import { useParams } from 'react-router-dom';
 import receitasJson from '../database.json';
@@ -16,7 +15,7 @@ const Receitas = () => {
   }, []);
 
   return (
-    <div className="md:container flex justify-center mt-24 flex-col items-center gap-32 bg-[#B3864D] animate-slideLeft">
+    <div className="md:container flex justify-center mt-24 flex-col items-center gap-32 bg-[#B3864D] animate-slideLeft font-mali-regular">
       <div className="w-full p-8 flex justify-between items-center bg-[#812D25]">
         <div
           style={{ maxWidthwidth: '935px', height: '441px' }}
@@ -30,12 +29,7 @@ const Receitas = () => {
           />
           <div className=" flex flex-col gap-10 text-white items-center ">
             <h1 className="text-5xl font-bold w-96">{receita[id].Titulo}</h1>
-            <p className="text-lg w-80">
-              Desfrute da perfeição em forma de cookies com esta receita
-              irresistível. Com uma base, mordida revela pedaços generosos de
-              chocolate derretendo na boca. A combinação equilibrada de doce e
-              textura crocante faz desses cookies uma verdadeira tentação.
-            </p>
+            <p className="text-lg w-80">{receita[id].descricao}</p>
           </div>
         </div>
       </div>

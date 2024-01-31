@@ -13,7 +13,8 @@
       "3": "Tome cuidado para não cozinhar as claras",
       "4": "Transferir a mistura para a batedeira e com o globo bater até esfriar completamente e atingir um ponto firme e brilhante"
     },
-    "imagemCapa": "https://imgur.com/00SHiy8.jpg"
+    "imagemCapa": "https://imgur.com/00SHiy8.jpg",
+    "descricao": "Experimente a perfeição da Pavlova, uma sobremesa celestial que encanta o paladar. A base crocante por fora e macia por dentro, feita de merengue, é coroada com uma nuvem de chantilly fresco e uma generosa camada de frutas frescas vibrantes"
   },
   {
     "id": "1",
@@ -38,7 +39,8 @@
       "6": "Congelar",
       "7": "Assar em forno a 160°C"
     },
-    "imagemCapa": "https://imgur.com/j0ex5Hy.jpg"
+    "imagemCapa": "https://imgur.com/j0ex5Hy.jpg",
+    "descricao": "Desfrute da perfeição em forma de cookies com esta receita irresistível. Com uma base, mordida revela pedaços generosos de chocolate derretendo na boca. A combinação equilibrada de doce e textura crocante faz desses cookies uma verdadeira tentação"
   },
   {
     "id": "2",
@@ -70,7 +72,8 @@
       "10": "Quando o ganache atingir 30°C adicionar a manteiga em ponto de pomada, com a ajuda de um mixer",
       "11": "Cobrir o bolo"
     },
-    "imagemCapa": "https://imgur.com/6GVQ21u.jpg"
+    "imagemCapa": "https://imgur.com/6GVQ21u.jpg",
+    "descricao": "Desfrute da perfeição em forma de cookies com esta receita irresistível. Com uma base, mordida revela pedaços generosos de chocolate derretendo na boca. A combinação equilibrada de doce e textura crocante faz desses cookies uma verdadeira tentação"
   },
   {
     "id": "3",
@@ -90,7 +93,8 @@
       "1": "Derreta o chocolate amargo e misture com o creme inglês",
       "2": "Quando atingir a temperatura ambiente, adicione o creme de leite batido em picos médios, monte como quiser"
     },
-    "imagemCapa": "https://imgur.com/UHgbwyG.jpg"
+    "imagemCapa": "https://imgur.com/UHgbwyG.jpg",
+    "descricao": "Delicie-se com a perfeição suave e aveludada do Creme Inglês. Esta clássica e elegante sobremesa é preparada com gemas de ovos, açúcar e baunilha, resultando em um creme decadente e reconfortante."
   },
   {
     "id": "4",
@@ -110,14 +114,15 @@
       "4": "Adicionar um pouco de água, cuidado neste momento",
       "5": "Colocar o caramelo na forma, cobrir com a mistura e levar para assar em banho maria, no forno a 120°C"
     },
-    "imagemCapa": "https://imgur.com/Sn0WuOy.jpg"
+    "imagemCapa": "https://imgur.com/Sn0WuOy.jpg",
+    "descricao": "O inigualável pudim, uma sobremesa clássica que conquista corações. Com uma textura sedosa e sabor delicado, este pudim é preparado com  uma calda caramelizada com um toque de doçura intensa que se harmoniza perfeitamente com a suavidade do pudim."
   },
   {
     "id": "5",
     "Titulo": "CHEESECAKE",
     "Ingredientes": {
       "1": "Cream cheese - 600g",
-      "2": "oVOS - 300g",
+      "2": "Ovos - 300g",
       "3": "Gemas - 60g",
       "4": "Açucar - 225g",
       "5": "Limão - 1/2",
@@ -134,8 +139,79 @@
       "16": "Açúcar 150g"
     },
     "ModoDePreparo": {
-      "1": "Misturar o leite, o leite condensado, as gemas e os ovos"
+      "1": "Misturar a farinha de trigo com a manteiga gelada e cortada em cubos, até virar uma farofa",
+      "2": "Adicionar o açúcar e a gema. Não sovar a massa para não criar glúten",
+      "3": "Deixar descansar mínimo de 30 minutos na geladeira antes de abrir a massa e pré-assar",
+      "4": "CHEESECAKE",
+      "5": "Bater o com o globo o açúcar e o creamcheese. Quando estiver bem fofo adicionar os ovos um a um",
+      "6": "Colocar na massa pré-assada. E assar em fogo médio até firmar, mas deixar o meio ainda mole",
+      "7": "Resfriar e colocar a calda por cima",
+      "8": "CALDA",
+      "9": "Cozinhar o morango, açúcar e adicionar o suco de limão para equilibrar a acidez",
+      "10": "Quando o morango der uma amolecida, pode usar a goma xantana para engrossar, melhorando assim a consistência e o rendimento da receita"
     },
-    "imagemCapa": "https://imgur.com/HQe1TPk.jpg"
+    "imagemCapa": "https://imgur.com/HQe1TPk.jpg",
+    "descricao": "Renda-se ao irresistível sabor do Cheesecake, uma sobremesa que combina a cremosidade do queijo com a doçura perfeita. A base crocante de biscoitos contrasta perfeitamente com o recheio suave e rico, criando uma experiência de sabor equilibrada. Finalizado com uma generosa camada de cobertura de frutas ou calda"
+  },
+  {
+    "id": "6",
+    "Titulo": "BOLO DE ROLO",
+    "Ingredientes": {
+      "1": "Manteiga sem sal - 250G",
+      "2": "Açúcar refinado - 250g",
+      "3": "Ovos - 250g",
+      "4": "Farinha de trigo sem fermento - 250g",
+      "5": "Açúcar para polvilhar - 100g"
+    },
+    "ModoDePreparo": {
+      "1": "Bater a manteiga e o açúcar",
+      "2": "Acrescentar os ovos inteiros, um a um",
+      "3": "Juntar a farinha de trigo e bater até obter uma mistura homogênea",
+      "4": "Untar duas formas retangulares com manteiga e farinha de trigo",
+      "5": "Espalhar a massa, deixando bem fina e levar ao forno",
+      "6": "Pré-aquecer a 200° C, por 3 minutos, no máximo. Retirar",
+      "7": "Virar o bolo em pano de prato polvilhado de açúcar",
+      "8": "Espalhar o doce de leite ou a goiabada derretida e enrolar ainda quente",
+      "9": "Esperar esfriar e cortar em fatias"
+    },
+    "imagemCapa": "https://imgur.com/t350f24.jpg",
+    "descricao": "Deleite-se com a sofisticação e o sabor único do Bolo de Rolo, uma iguaria tradicional que encanta desde o primeiro olhar até a última mordida. Este bolo fino e flexível, recheado com uma camada generosa de goiabada, oferece uma harmonia perfeita entre a massa leve e o recheio agridoce"
+  },
+  {
+    "id": "7",
+    "Titulo": "BEM CASADO",
+    "Ingredientes": {
+      "1": "Ovos - 250g",
+      "2": "Água Quente - 210g",
+      "3": "Farinha de Trigo - 375g",
+      "4": "Fermento em pó químico - 10g",
+      "5": "Essência de Baunilha - 10 gotas"
+    },
+    "ModoDePreparo": {
+      "1": "Bata bem os ovos na batedeira",
+      "2": "Adicione a água fervente e bata até crescer e ficar espumante",
+      "3": "Acrescente o açúcar e continue a bater",
+      "4": "Retire da batedeira, coloque a farinha de trigo, a essência e o fermento, mexendo até que a mistura fique homogênea",
+      "5": "Leve ao forno a 180°C, em forma untada e enfarinhada por aproximadamente 15 minutos ou ao enfiar um palito, sair limpo",
+      "6": "Corte a massa com um cortador",
+      "7": "Recheio de sua preferecia"
+    },
+    "imagemCapa": "https://imgur.com/WUURd3I.jpg",
+    "descricao": "Experimente a doçura da tradição com o Bem Casado, um delicado e irresistível doce de festa. Duas camadas macias de pão de ló envolvem um recheio generoso de doce de leite, proporcionando uma experiência única de sabor e textura"
+  },
+  {
+    "id": "8",
+    "Titulo": "MERENGUE SUIÇO",
+    "Ingredientes": {
+      "1": "Açúcar refinado - 240g",
+      "2": "Clara de ovos - 210g"
+    },
+    "ModoDePreparo": {
+      "1": "Em um bowl, recipiente da batedeira, misturar as claras e o açúcar. Aquecer em banho-maria  até atingir 72 °C, ou até que os cristais de açucar estejam dissolvidos",
+      "2": "Tomar cuidado para não cozinhar as claras",
+      "3": "Transferir a mistura para a batedeira e com o globo bater até esfriar completamente e atingir um ponto firme e brilhante"
+    },
+    "imagemCapa": "https://imgur.com/kXTQnbB.jpg",
+    "descricao": "Desfrute da leveza e da crocância do Merengue Suíço, uma sobremesa divinamente delicada. Preparado com claras de ovos e açúcar, este merengue atinge a textura perfeita"
   }
 ]

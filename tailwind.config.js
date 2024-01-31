@@ -19,6 +19,11 @@ export default {
       // => @media (min-width: 1536px) { ... }
     },
     extend: {
+      fontFamily: {
+        'mali-semibold': ['mali', 'sans-serif'],
+        'mali-bold': ['mali-bold', 'sans-serif'],
+        'mali-regular': ['mali-regular', 'sans-serif'],
+      },
       colors: {
         bgcard: 'rgba(100, 38, 32, 0.46)',
         bgcardHover: 'rgba(140, 77, 71, 0.46)',

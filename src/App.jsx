@@ -13,12 +13,15 @@ function App() {
     <BrowserRouter>
       <div className="bg-[#B3864D] w-full h-full p-0 m-0 flex flex-col items-center justify-center">
         <header className="flex flex-col justify-center items-center gap-20">
-          <Header />
+          <Header onSearch={(term) => setSearchTerm(term)} />
         </header>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Home searchTerm={searchTerm} />} />
           <Route path="receitas/:id" element={<Receitas />} />
-          <Route path="allReceitas" element={<AllReceitas />} />
+          <Route
+            path="allReceitas"
+            element={<AllReceitas searchTerm={searchTerm} />}
+          />
         </Routes>
         <Footer />
       </div>
